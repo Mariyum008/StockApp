@@ -1,7 +1,12 @@
 import React from 'react'
+import Hero from './Hero';
+import Team from './Team';
 function About() {
     return ( 
-        <h1>About</h1>
+       <div> 
+       <Hero/>
+        <Team/>
+        </div>
      );
 }
 
